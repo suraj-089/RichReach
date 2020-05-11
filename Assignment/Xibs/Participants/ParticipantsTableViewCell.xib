@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ParticipantsTableViewCell" rowHeight="215" id="KGk-i7-Jjw" customClass="ParticipantsTableViewCell" customModule="Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="215"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="215"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Salespeople" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbU-pQ-Cce">
+                        <rect key="frame" x="20" y="15" width="73.5" height="18.5"/>
+                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aGe-yJ-G2Y">
+                        <rect key="frame" x="250" y="13.5" width="80" height="22"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HgG-xq-Ljr">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="22"/>
+                                <state key="normal" image="bolt.horizontal.circle.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kic-w3-scf">
+                                <rect key="frame" x="45" y="0.0" width="35" height="22"/>
+                                <state key="normal" image="pencil.slash" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="TnI-07-rLl"/>
+                        </constraints>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marketing" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4c0-eq-qK8">
+                        <rect key="frame" x="20" y="48.5" width="210" height="110.5"/>
+                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RPr-ur-GCM">
+                        <rect key="frame" x="250" y="21" width="80" height="165.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afJ-PG-owt">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="165.5"/>
+                                <state key="normal" image="bolt.horizontal.circle.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zc-7n-vkv">
+                                <rect key="frame" x="45" y="0.0" width="35" height="165.5"/>
+                                <state key="normal" image="pencil.slash" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="TUl-jQ-k5u"/>
+                        </constraints>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zG-TY-rn3">
+                        <rect key="frame" x="20" y="174" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Dmy-wO-8rL"/>
+                            <constraint firstAttribute="width" constant="15" id="G0c-rF-eMB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="15"/>
+                        <state key="normal" title="+"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9B-VL-XSg">
+                        <rect key="frame" x="35" y="174" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="SPr-OX-3JF"/>
+                            <constraint firstAttribute="height" constant="15" id="gDM-Sy-ogO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="15"/>
+                        <state key="normal" title="@"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RPr-ur-GCM" firstAttribute="centerY" secondItem="4c0-eq-qK8" secondAttribute="centerY" id="6f7-cY-9wP"/>
+                    <constraint firstItem="lbU-pQ-Cce" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="8uH-Sc-xeO"/>
+                    <constraint firstItem="V9B-VL-XSg" firstAttribute="leading" secondItem="0zG-TY-rn3" secondAttribute="trailing" id="AdE-5Q-aGM"/>
+                    <constraint firstItem="RPr-ur-GCM" firstAttribute="trailing" secondItem="aGe-yJ-G2Y" secondAttribute="trailing" id="HEA-43-3dx"/>
+                    <constraint firstItem="RPr-ur-GCM" firstAttribute="leading" secondItem="4c0-eq-qK8" secondAttribute="trailing" constant="20" id="JLS-ds-PRA"/>
+                    <constraint firstItem="4c0-eq-qK8" firstAttribute="leading" secondItem="lbU-pQ-Cce" secondAttribute="leading" id="Jgx-NL-MxV"/>
+                    <constraint firstItem="V9B-VL-XSg" firstAttribute="centerY" secondItem="0zG-TY-rn3" secondAttribute="centerY" id="KaB-A4-wXI"/>
+                    <constraint firstItem="RPr-ur-GCM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="TeG-0l-g2W"/>
+                    <constraint firstItem="4c0-eq-qK8" firstAttribute="top" secondItem="lbU-pQ-Cce" secondAttribute="bottom" constant="15" id="WOw-A0-31F"/>
+                    <constraint firstItem="0zG-TY-rn3" firstAttribute="top" secondItem="4c0-eq-qK8" secondAttribute="bottom" constant="15" id="YZx-4v-GQr"/>
+                    <constraint firstItem="0zG-TY-rn3" firstAttribute="leading" secondItem="4c0-eq-qK8" secondAttribute="leading" id="ZUP-Ad-4Cg"/>
+                    <constraint firstAttribute="trailing" secondItem="aGe-yJ-G2Y" secondAttribute="trailing" constant="20" id="ZcB-0f-4dK"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0zG-TY-rn3" secondAttribute="bottom" constant="15" id="bBq-nO-cAJ"/>
+                    <constraint firstItem="lbU-pQ-Cce" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="sHj-Y3-Mrm"/>
+                    <constraint firstItem="aGe-yJ-G2Y" firstAttribute="centerY" secondItem="lbU-pQ-Cce" secondAttribute="centerY" id="uAP-It-acc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="156.52173913043478" y="71.986607142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bolt.horizontal.circle.fill" catalog="system" width="64" height="60"/>
+        <image name="pencil.slash" catalog="system" width="64" height="56"/>
+    </resources>
+</document>

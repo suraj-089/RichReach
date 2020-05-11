@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MoreTableViewCell" rowHeight="260" id="KGk-i7-Jjw" customClass="MoreTableViewCell" customModule="Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="260"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="260"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GtM-Wf-yLm">
+                        <rect key="frame" x="20" y="0.0" width="338" height="50"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KBE-R1-mO5">
+                                <rect key="frame" x="0.0" y="0.0" width="338" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9u-Qg-QNb">
+                                        <rect key="frame" x="0.0" y="0.0" width="39.5" height="50"/>
+                                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="14"/>
+                                        <state key="normal" title="abc"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pM3-Ov-TJK">
+                                        <rect key="frame" x="49.5" y="0.0" width="40" height="50"/>
+                                        <state key="normal" image="doc.on.doc" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tj-yJ-kZq">
+                                        <rect key="frame" x="99.5" y="0.0" width="39.5" height="50"/>
+                                        <state key="normal" image="square.and.arrow.down.on.square.fill" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkz-xR-ukK">
+                                        <rect key="frame" x="149" y="0.0" width="40" height="50"/>
+                                        <state key="normal" image="camera.fill" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIf-at-RUa">
+                                        <rect key="frame" x="199" y="0.0" width="39.5" height="50"/>
+                                        <state key="normal" image="location" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ege-Vn-Bbw">
+                                        <rect key="frame" x="248.5" y="0.0" width="40" height="50"/>
+                                        <state key="normal" image="mic.fill" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HE8-Dh-xso">
+                                        <rect key="frame" x="298.5" y="0.0" width="39.5" height="50"/>
+                                        <state key="normal" image="pencil.and.ellipsis.rectangle" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Jnj-fD-w0B"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KBE-R1-mO5" firstAttribute="top" secondItem="GtM-Wf-yLm" secondAttribute="top" id="18S-Bb-dg6"/>
+                            <constraint firstItem="KBE-R1-mO5" firstAttribute="leading" secondItem="GtM-Wf-yLm" secondAttribute="leading" id="FYc-HO-ug6"/>
+                            <constraint firstAttribute="height" constant="50" id="MRk-oa-DOY"/>
+                            <constraint firstAttribute="trailing" secondItem="KBE-R1-mO5" secondAttribute="trailing" id="tuW-oj-mqG"/>
+                            <constraint firstAttribute="bottom" secondItem="KBE-R1-mO5" secondAttribute="bottom" id="ydY-rC-RTw"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XKY-dv-cpT">
+                        <rect key="frame" x="0.0" y="58" width="378" height="2"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="4IF-uw-WLr"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vq8-Qg-Ca0">
+                        <rect key="frame" x="139" y="75" width="100" height="174"/>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.1764705882352941" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="zhn-Ve-fbP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="16"/>
+                        <state key="normal" title="Create">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="createButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ndp-NV-9IW"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vq8-Qg-Ca0" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="71i-3E-6me"/>
+                    <constraint firstItem="GtM-Wf-yLm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Oaf-vN-PGk"/>
+                    <constraint firstItem="XKY-dv-cpT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="TF9-8I-yyQ"/>
+                    <constraint firstAttribute="trailing" secondItem="GtM-Wf-yLm" secondAttribute="trailing" constant="20" id="Xhk-Cd-d6m"/>
+                    <constraint firstItem="XKY-dv-cpT" firstAttribute="top" secondItem="GtM-Wf-yLm" secondAttribute="bottom" constant="8" symbolic="YES" id="dAy-Y9-8Tp"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vq8-Qg-Ca0" secondAttribute="bottom" id="rr0-ga-WjT"/>
+                    <constraint firstItem="GtM-Wf-yLm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="sP2-cA-q46"/>
+                    <constraint firstItem="vq8-Qg-Ca0" firstAttribute="top" secondItem="XKY-dv-cpT" secondAttribute="bottom" constant="15" id="vnj-F4-cZk"/>
+                    <constraint firstAttribute="trailing" secondItem="XKY-dv-cpT" secondAttribute="trailing" id="zI9-rZ-Agd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="createButton" destination="vq8-Qg-Ca0" id="tIv-qe-w9F"/>
+            </connections>
+            <point key="canvasLocation" x="630.43478260869574" y="8.7053571428571423"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="camera.fill" catalog="system" width="64" height="48"/>
+        <image name="doc.on.doc" catalog="system" width="58" height="64"/>
+        <image name="location" catalog="system" width="64" height="56"/>
+        <image name="mic.fill" catalog="system" width="54" height="64"/>
+        <image name="pencil.and.ellipsis.rectangle" catalog="system" width="64" height="40"/>
+        <image name="square.and.arrow.down.on.square.fill" catalog="system" width="60" height="64"/>
+    </resources>
+</document>
